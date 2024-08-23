@@ -2,7 +2,7 @@
 <html>
 <head lang="sv"></head>
 <body>
-<h1>Matematik-test</h1>
+<h1>Moment-1</h1>
 <form action="currency.php" method="post">
    <fieldset>
        <legend>Valutakonverterare</legend>
