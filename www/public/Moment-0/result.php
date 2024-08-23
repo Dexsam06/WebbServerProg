@@ -24,6 +24,7 @@
 
     echo '<p>Du är '.$age.' och heter '.$name.' och har id '.$id.'</p>';
     echo '<p>Det här är ett test</p>';
+    echo '<p>Försök två att inte ha merge conflicts</p>';
 ?>
 </body>
 </html>
