@@ -19,6 +19,12 @@
     echo '<strong>Du fick '.$points.' av 2 möjliga</strong>';
 
     
+    $id = $_GET['id'];
+    $name = $_GET['name'];
+    $age = $_GET['age'];
+
+    echo '<p>Du är '.$age.' och heter '.$name.' och har id '.$id.'</p>';
+    echo '<p>Det här är ett test</p>';
 ?>
 </body>
 </html>
