@@ -1,25 +1,34 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    <meta charset="UTF-8" />
-    <title>Quiz med Formulär och PHP</title>
-</head>
+<!doctype html>
+<html>
+<head lang="sv"></head>
 <body>
-<h1>Quiz</h1>
-<form action="result.php" method="post">
-    <label>I vilket språk programmerar vi i på kursen?<br>    
-        <input type="radio" name="qOne" value="php">PHP<br>
-        <input type="radio" name="qOne" value="asp">ASP<br>
-        <input type="radio" name="qOne" value="jsp">JSP<br><br>
-    </label>
-    <label>Vilket språk är ett klientskriptspråk<br>  
-        <input type="radio" name="qTwo" value="jsp">JSP<br>
-        <input type="radio" name="qTwo" value="js">JavaScript<br>
-        <input type="radio" name="qTwo" value="basic">Basic<br><br>
-    </label>
-    <input type="submit" value="Skicka" />
-        
-    <a href="result.php?id=21&name=kalle&age=13">Nästa</a>
+<h1>Matematik-test</h1>
+<form action="evaluate.php" method="post">
+   <fieldset>
+       <legend>Frågor</legend>
+       <label>4 + 5 = </label>
+       <input type="text" name="q1">
+       <br>
+       <label>3 x 5 = </label>
+       <input type="text" name="q2">
+       <br>
+       <label>5 - 2 = </label>
+       <input type="text" name="q3">
+       <br>
+       <label>6/3 = </label>
+       <input type="text" name="q4">
+       <br>
+       <label>15 + 6 = </label>
+       <input type="text" name="q5">
+       <br>
+       <label>Namn</label>
+       <input type="text" name="namn">
+       <br>
+       <input type="submit" value="Rätta">
+   </fieldset>
 </form>
+<?php
+include("../footer.html");
+?>
 </body>
 </html>
