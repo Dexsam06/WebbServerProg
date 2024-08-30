@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php
-class Person {
+<?php
+class user {
 
     private $förnamn;
     private $efternamn;
     private $användarnamn;
     private $lösenord;
 
-    /**
-     * Person konstruktor.
-     */
     public function __construct($förnamn, $efternamn, $användarnamn, $lösenord) {
         $this->förnamn = $förnamn;
         $this->efternamn = $efternamn;
@@ -24,26 +13,24 @@ class Person {
         $this->lösenord = $lösenord;
     }
 
-    public function getförnamn() {
+    public function getFörnamn() {
         return $this->förnamn;
     }
 
-    public function getefternamn() {
+    public function getEfternamn() {
         return $this->efternamn;
     }
 
-    public function getanvändarnamn() {
+    public function getAnvändarnamn() {
         return $this->användarnamn;
     }
 
-    public function getlösenord() {
+    public function getLösenord() {
         return $this->lösenord;
     }
 
-    public function setlösenord($lösenord) {
+    public function setLösenord($lösenord) {
         $this->lösenord = $lösenord;
     }
 }
 ?>
-</body>
-</html>

@@ -10,6 +10,7 @@
     <a href="Upg2/räknare.php">Upg2</a>
     <a href="Upg3/foreacharray.php">Upg3</a>
     <a href="Upg4/beräkning.php">Upg4</a>
+    <a href="FeetBook/start.php">FeetBook</a>
     <?php
     include("../footer.html");
     ?>
