@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <title>Filhantering Läs</title>
-</head>
-<body>
 <?php
 
-  $file = "../../../userM2.dat";
+  $file = "../../../userM3.dat";
 
   function addUser($newUser, $file) {
     
