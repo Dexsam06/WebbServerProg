@@ -34,17 +34,23 @@ session_start();
                                 include('pages/blogg.php');
                                 break;
                         case 'bilder':
-                                include('pages/bilder.php');
+                                include('pages/bilder.php'); 
                                 break;
                         case 'kontakt':
-                                include('pages/kontakt.php');
+                                include('pages/kontakt.php'); 
                                 break;
-
+                        case 'klotter':
+                                include('pages/klotter.php');
+                                break;
                         default:
                                 include('pages/start.php');
                 }
                 include("inc/footer.php");
-                include("dataBas/besökRäknare.php");
+
+                if (file_exists("../../hit.dat")) {
+                        $hit = file_get_contents("../../hit.dat");
+                }
+                echo "Antal användare: " . $hit;
                 ?>
         </div>
         <!-- End wrapper -->

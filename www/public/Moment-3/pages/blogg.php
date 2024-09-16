@@ -1,4 +1,8 @@
-<main role="main">
+<?php
+if (!(isset($_SESSION['inloggad']))) {
+	echo 'Du är inte inloggad';
+} else {
+	echo '<main role="main">
 	<section>
 		<hgroup>
 			<h1>Min blogg Nu</h1>
@@ -10,4 +14,6 @@
 			voluptatibus cu vel, nam congue soluta praesent at.
 		</p>
 	</section>
-</main>
+</main>';
+}
+?>
