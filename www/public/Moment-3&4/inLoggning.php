@@ -3,7 +3,7 @@ include('dataBas/user.php');
 include('dataBas/addUser.php');
 include('dataBas/cleanData.php');
 session_start();
-$_SESSION['CSRFToken'] = bin2hex(random_bytes(32));
+$_SESSION['CSRFToken'] = bin2hex(random_bytes(32)); 
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +11,7 @@ $_SESSION['CSRFToken'] = bin2hex(random_bytes(32));
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Account Management for the rich</title>
 </head>
 

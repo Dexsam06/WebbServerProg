@@ -23,7 +23,7 @@
    </fieldset>
 </form>
 
-<form action="kalkylator.php" method="post">
+<form action="kalkylator.php" method="post"> 
    <fieldset>
        <legend>Kalkylator</legend>
        <input type="number" name="n1"> +
