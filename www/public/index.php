@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StartSida</title>
     <style>
-        <style>
     /* Style the container */
     section {
         width: 100%;
@@ -41,7 +40,7 @@
 
     /* Style the paragraph */
     section p {
-        font-size: 1.2rem; /* Slightly larger font size for paragraph */
+        font-size: 1.5rem; /* Slightly larger font size for paragraph */
         color: #333;  /* Dark text color for readability */
         text-align: center; /* Center-align the text */
         max-width: 800px;  /* Limit the width of the text */
@@ -56,7 +55,7 @@
 
     /* Style each list item */
     section ul li {
-        font-size: 1.1rem; /* Slightly smaller font for list items */
+        font-size: 1.4rem; /* Slightly smaller font for list items */
         color: #555;  /* Darker gray for the list items */
         margin-bottom: 0.8rem;  /* Space between list items */
     }
@@ -84,7 +83,7 @@
                 <li>Steg 2: Höger klicka på filen och öppna den i terminalen</li>
                 <li>Steg 3: Skriv i terminalen ./start.sh</li>
                 <li>Steg 4: IP-Addressen är 172.17.50.104</li>
-                <li>Steg 5: Skriv ditt namn och så är du klar, hoppas du tycker om det</li>
+                <li>Steg 5: Skriv ditt namn och så är du klar, hoppas du tycker om det!</li>
             </ul>
         </p>
     </section>
