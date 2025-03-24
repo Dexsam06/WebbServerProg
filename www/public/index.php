@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StartSida</title>
+    <style>
+        /* Style the container */
+        section {
+            width: 100%;               
+            height: 30rem;            
+            margin: 5rem 0;          
+            padding: 2rem;           
+            background-color: #f4f4f4; 
+            display: flex;            
+            justify-content: center;  
+            align-items: center;      
+        }
+
+        /* Style the link */
+        section a {
+            text-decoration: none;   
+            color: #007bff;         
+            font-size: 2rem;
+            padding: 1rem 2rem;     
+            border: 0.2rem solid #007bff; 
+            border-radius: 0.5rem;
+            transition: background-color 0.3s, color 0.3s; 
+        }
+
+        /* Hover effect for the link */
+        section a:hover {
+            background-color: #007bff; 
+            color: white;             
+        }
+    </style>
 </head>
 <body>
     <a href="Moment-0/index.php">Moment-0</a>
@@ -13,7 +43,10 @@
     <a href="Moment-5/index.php">Moment-5</a>
 
     <br>
-   <section style="color:green" style="margin:1rem">  <a href="../downloads/Rocket_Racer_Client_Deploy.tar.gz" download> Ladda ner Rocket Racer</a></section>
+    <section>
+        <a href="../downloads/Rocket_Racer_Client_Deploy.zip" download> Ladda ner Rocket Racer</a>
+    </section>
+   
   
 </body> 
 </html> 
