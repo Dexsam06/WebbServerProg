@@ -45,6 +45,15 @@
     <br>
     <section>
         <a href="../downloads/Rocket_Racer_Client_Deploy.zip" download> Ladda ner Rocket Racer</a>
+        <p>Hur man startat spelet:
+            <ul>
+                <li>Steg 1: Ladda ner spelet och packa upp det</li>
+                <li>Steg 2: Höger klicka på filen och öppna den i terminalen</li>
+                <li>Steg 3: Skriv i terminalen ./start.sh</li>
+                <li>Steg 4: IP-Addressen är 172.17.50.104</li>
+                <li>Steg 5: Skriv ditt namn och så är du klar, hoppas du tycker om det</li>
+            </ul>
+        </p>
     </section>
    
   
