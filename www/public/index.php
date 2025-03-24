@@ -12,6 +12,7 @@
     <a href="Moment-3&4/index.php">Moment-3&4</a>
     <a href="Moment-5/index.php">Moment-5</a>
 
-    <a href="../downloads/Rocket_Racer_Client_Deploy.zip" download> Ladda ner Rocket Racer</a>
-</body>
-</html>
+    <br>
+    <a href="../downloads/Rocket_Racer_Client_Deploy.tar.gz" download> Ladda ner Rocket Racer</a>
+</body> 
+</html> 
